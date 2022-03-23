@@ -86,8 +86,6 @@ h4 {
   }
   .img-weather {
     margin-top: 25px;
-  }
-  .projects-home {
-    margin: 15px;
+    max-width: 350px;
   }
 }
