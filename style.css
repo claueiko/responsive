@@ -36,7 +36,7 @@ h2 {
   box-shadow: var(--box-shadow);
 }
 .img {
-  border-radius: 10px;
+  border-radius: 30px;
   padding-top: 10px;
   display: flex;
   max-width: 550px;
@@ -62,8 +62,14 @@ h4 {
 }
 .basic {
   text-align: left;
-
   margin-top: 180px;
+}
+.plus {
+  text-align: left;
+  margin-top: 180px;
+}
+.img-weather {
+  margin: 30px;
 }
 @media screen and (max-width: 780px) {
   .basic {
@@ -73,5 +79,12 @@ h4 {
   .img {
     max-width: 350px;
     margin: auto;
+  }
+  .plus {
+    margin-top: 15px;
+    text-align: center;
+  }
+  .img-weather {
+    margin-top: 25px;
   }
 }
