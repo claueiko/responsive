@@ -1,3 +1,6 @@
+:root {
+  --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
 .navbar {
   font-family: "lato";
   justify-content: center;
@@ -21,7 +24,53 @@ h2 {
 }
 .btn {
   font-family: "lato";
-  font-size: 20px;
+  font-size: 19px;
   padding-top: 12px;
   padding-bottom: 12px;
+  margin-bottom: 55px;
+  box-shadow: var(--box-shadow);
+}
+.project-button {
+  margin-top: 5px;
+  font-size: 17px;
+  box-shadow: var(--box-shadow);
+}
+.img {
+  border-radius: 10px;
+  padding-top: 10px;
+  display: flex;
+  max-width: 555px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+h3 {
+  font-family: "lato";
+  font-size: 22px;
+  font-weight: 700;
+}
+h4 {
+  font-family: "lato";
+  font-size: 17px;
+  font-weight: 700;
+}
+.projects-home {
+  margin: auto;
+  margin: 45px;
+
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+}
+.basic {
+  text-align: left;
+
+  margin-top: 180px;
+}
+@media screen and (max-width: 580px) {
+  .basic {
+    margin: 0;
+    text-align: center;
+  }
+  .img {
+    max-width: 390px;
+  }
 }
