@@ -40,7 +40,7 @@ h2 {
   padding-top: 10px;
   display: flex;
   max-width: 550px;
-
+  text-align: center;
   margin-bottom: 15px;
 }
 h3 {
@@ -65,12 +65,13 @@ h4 {
 
   margin-top: 180px;
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 580px) {
   .basic {
     margin: 0;
     text-align: center;
   }
   .img {
     max-width: 350px;
+    margin: auto;
   }
 }
