@@ -65,12 +65,12 @@ h4 {
 
   margin-top: 180px;
 }
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 680px) {
   .basic {
     margin: 0;
     text-align: center;
   }
   .img {
-    max-width: 380px;
+    max-width: 350px;
   }
 }
