@@ -86,12 +86,13 @@ h4 {
 .projects-text {
   text-align: center;
 }
-.proj h4,
-p {
+.proj h4 {
   text-align: center;
   margin-top: 10px;
 }
-
+.proj p {
+  text-align: center;
+}
 .proj img {
   display: block;
   margin: auto;
@@ -102,7 +103,6 @@ p {
   border-radius: 10px;
   box-shadow: var(--box-shadow);
   margin-top: 45px;
-  margin: 10px;
 }
 .go-to-button {
   text-align: center;
