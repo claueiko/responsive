@@ -83,6 +83,30 @@ h4 {
   font-weight: 300;
   font-size: 22px;
 }
+.projects-text {
+  text-align: center;
+}
+.proj h4,
+p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.proj img {
+  display: block;
+  margin: auto;
+  width: 80%;
+  margin-top: 55px;
+}
+.proj {
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  margin-top: 45px;
+  margin: 10px;
+}
+.go-to-button {
+  text-align: center;
+}
 @media screen and (max-width: 780px) {
   .basic {
     margin: 0;
