@@ -71,6 +71,18 @@ h4 {
 .img-weather {
   margin: 30px;
 }
+.image-me {
+  border-radius: 10px;
+}
+.about-me h2 {
+  justify-content: left;
+  text-align: left;
+  font-size: 56px;
+}
+.about-me h4 {
+  font-weight: 300;
+  font-size: 22px;
+}
 @media screen and (max-width: 780px) {
   .basic {
     margin: 0;
@@ -86,5 +98,9 @@ h4 {
   }
   .img-weather {
     margin-top: 25px;
+  }
+  .image-me {
+    max-width: 450px;
+    margin: auto;
   }
 }
