@@ -30,11 +30,7 @@ h2 {
   margin-bottom: 55px;
   box-shadow: var(--box-shadow);
 }
-.project-button {
-  margin-top: 5px;
-  font-size: 17px;
-  box-shadow: var(--box-shadow);
-}
+
 .img {
   border-radius: 30px;
   padding-top: 10px;
