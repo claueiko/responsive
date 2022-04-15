@@ -103,6 +103,21 @@ h4 {
 .go-to-button {
   text-align: center;
 }
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 24px;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: black;
+  margin-top: 10px;
+}
+footer {
+  margin: 60px;
+}
+
 @media screen and (max-width: 780px) {
   .basic {
     margin: 0;
