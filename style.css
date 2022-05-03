@@ -103,6 +103,9 @@ h4 {
 .go-to-button {
   text-align: center;
 }
+.row {
+  justify-content: space-between;
+}
 footer .email-link {
   text-decoration: none;
   color: black;
